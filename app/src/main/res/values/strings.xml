@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ESC/POS EMU</string>
+    <string name="clear_paper">Clear Paper</string>
+    <string name="paper_size_58">Paper Size: 58mm</string>
+    <string name="paper_size_80">Paper Size: 80mm</string>
+    <string name="fit_to_screen">Fit: Screen</string>
+    <string name="scale_100">Scale: 100%%</string>
+    <string name="add_printer">Add Printer</string>
+</resources>

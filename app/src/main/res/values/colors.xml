@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="header_slate">#263746</color>
+    <color name="header_slate_dark">#1B2935</color>
+    <color name="status_card">#1D2C38</color>
+    <color name="status_card_stroke">#446173</color>
+    <color name="receipt_background">#E0E0E0</color>
+    <color name="paper_white">#FFFFFF</color>
+    <color name="ink">#202124</color>
+    <color name="muted_ink">#60717D</color>
+    <color name="cut_line">#9AA4AA</color>
+    <color name="profile_card">#F7FAFC</color>
+    <color name="profile_card_stroke">#CBD5DB</color>
+    <color name="profile_card_selected">#E3F2F7</color>
+    <color name="profile_card_selected_stroke">#2D879D</color>
+</resources>
