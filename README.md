@@ -29,7 +29,11 @@ No AppCompat. No Compose. No networking library. The runtime uses Kotlin, XML, a
 
 ## Preview
 
-The app presents a dark status bar and a centered white thermal-paper strip on a soft-gray background. Incoming printer bytes become receipt elements as they arrive, including images and cut markers.
+<p align="center">
+  <img src="docs/screenshots/preview-1.png" width="45%" alt="ESC/POS Emulator Preview 1" />
+  &nbsp;
+  <img src="docs/screenshots/preview-2.png" width="45%" alt="ESC/POS Emulator Preview 2" />
+</p>
 
 ## Quick start
 
