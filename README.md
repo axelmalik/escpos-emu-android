@@ -183,3 +183,7 @@ The listener is activity-scoped and remains active while the emulator screen is 
 **The header shows `0.0.0.0`**
 
 Connect the Android device to Wi-Fi, reopen the app, and check the header again.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
