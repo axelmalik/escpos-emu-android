@@ -53,10 +53,11 @@ Alternatively, set `ANDROID_HOME` or open the project in Android Studio and let 
 
 ### Build and install
 
+You can download the prebuilt APK (`escpos-emu-android-v1.0.0.apk`) from [Releases](https://github.com/axelmalik/escpos-emu-android/releases/latest), or build and install from source:
+
 ```bash
-cd escpos-thermal-printer-emulator
-./gradlew :app:assembleDebug
-adb install -r app/build/outputs/apk/debug/app-debug.apk
+./gradlew :app:assembleRelease
+adb install -r app/build/outputs/apk/release/escpos-emu-android-v1.0.0.apk
 ```
 
 Open **ESC/POS EMU** and note the large device address shown in the header, for example:
@@ -107,6 +108,15 @@ PY
 | `ESC i` | Adds a paper cut divider |
 
 Unknown control bytes are ignored, preventing binary printer traffic from appearing as garbled text.
+
+## Compatibility & Hardware Benchmarks
+
+The emulator's layout, character wrapping, line spacing, and raster decoding have been tested with real-world POS generators and verified against physical thermal printers:
+
+- **Client Libraries**: Tested with popular ESC/POS builders including Flutter's [`esc_pos_utils`](https://pub.dev/packages/esc_pos_utils) / [`flutter_esc_pos_utils`](https://pub.dev/packages/flutter_esc_pos_utils), Node.js `escpos`, Python `python-escpos`, and raw TCP byte streams.
+- **Hardware Benchmarks**: Print layout fidelity (column alignments, margins, auto-cut dividers, and bitmap rendering) was compared and tuned against:
+  - **Epson TM-T82** (standard 80mm thermal receipt printer)
+  - **Bluetooth Thermal Printer EPS-80M / EPS8M** (portable 58mm/80mm thermal printer)
 
 ## Controls
 
